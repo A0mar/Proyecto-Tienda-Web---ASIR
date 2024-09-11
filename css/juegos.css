@@ -1,0 +1,240 @@
+/*Autores: Omar Alonso, Pablo Ramirez e Ignacio*/
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+main,
+aside,
+footer {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+header {
+    grid-area: header;
+
+}
+
+main {
+    grid-area: main;
+    padding-bottom: 35px;
+}
+
+aside {
+    grid-area: aside;
+}
+
+
+/*h1*/
+.titulo {
+    color: #00bcd4;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*subtitulos*/
+.subtitulos {
+    color: #00bcd4;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+
+/*h4*/
+h4{
+    color: #00e1ff;
+    font-weight: bold;
+    background-color: rgba(94, 94, 94, 0.486); 
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*h5*/
+
+h5{
+    color: #00e1ff;
+    font-weight: bold;
+    background-color: rgba(94, 94, 94, 0.486); 
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 15px;
+}
+
+/* portada y cuadro de texto*/
+.foto {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.contenedor .texto {
+    width: 60%;
+    padding: 20px;
+    background-color: #00000079;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+
+.contenedor .precio {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 2%;
+}
+
+
+.contenedor .boton-comprar {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+
+
+/* modo de juegos cuadrado*/
+
+.modo {
+    margin-bottom: 35px;
+}
+
+
+/*tabla mapas*/
+
+
+td {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 33%;
+    height: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#censurado {
+    background-image: url(../img/alamein.jpg);
+    color: white;
+
+}
+
+#resurgimiento {
+    background-image: url(../img/cale.jpg);
+    color: white;
+
+}
+
+#detonante {
+    background-image: url(../img/Censurado.jpg);
+    color: white;
+
+}
+
+
+#descarte {
+    background-image: url(../img/descarte.jpg);
+
+    color: white;
+}
+
+#manifiesto {
+    background-image: url(../img/Detonante.jpg);
+
+    color: white;
+}
+
+#caleidoscopio {
+    background-image: url(../img/punta_lanza.jpg);
+
+    color: white;
+}
+
+
+
+/* Estilos de la lista de requsiitos*/
+ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.lista1 {
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.lista2 {
+    width: 30%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+ul h4 {
+    margin-bottom: 10px;
+}
+
+/*footer*/
+footer {
+    grid-area: footer;
+}
+
+.nombre {
+    float: left;
+}
+
+.extra {
+    float: right;
+}

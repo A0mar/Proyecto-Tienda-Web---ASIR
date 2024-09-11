@@ -1,0 +1,130 @@
+/*Autores: Omar Alonso, Pablo Ramirez e Ignacio*/
+body {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "section"
+    "footer";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    margin: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    display: inline-block;
+}
+
+main {
+    grid-area: main;
+}
+
+section {
+    grid-area: section;
+}
+
+article {
+    grid-area: article;
+ 
+}
+
+footer {
+    grid-area: footer;
+    text-align: left;
+   
+}
+
+ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.lista1 {
+    width: 50%;
+    float: left;
+  /*  margin-left: 15%;
+    margin-right: 5%; */
+}
+
+.lista2 {
+    width: 45%;
+    float: right;
+ /*   margin-left: 5%;
+    margin-right: 15%; */
+}
+
+
+ul li {
+    margin-bottom: 2%; 
+}
+
+h3 {
+    color: #00bcd4;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 35px
+}
+
+ul h4 {
+    margin-bottom: 10%; 
+}
+
+
+
+.fotos{
+    width: 40%;
+    height: auto;
+ 
+    border: 2px solid white;
+    box-shadow: 0 0 10px 5px #08c5e6cc;
+}
+
+.contenedor_fotos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: dashed;
+}
+
+p {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%
+}
+
+form {
+ float: left;
+ margin-top: 5%;
+ margin-left: 10%;
+  }
+
+button{
+
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#usuario{
+float: right;
+margin-top: 5%;
+}
